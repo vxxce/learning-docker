@@ -163,3 +163,10 @@ $ docker run -p 5000:5000 -v $(pwd):/var/www -w "/var/www" node server.js
 - Dockerfiles must then be *built* to create image with:
 
 `$ docker build  --tag  <Docker ID>/node  .`
+
+## Publishing image to Docker Hub
+
+`$ docker push <Docker ID>/<Image ID>`
+
+- Now image can be pulled directly from docker hub and will be built automatically. Could then just run.
+
