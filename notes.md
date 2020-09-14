@@ -112,7 +112,8 @@ server.listen('5000', () => console.log('running on 5000'))
 
 *Run node container linking in source code into container:*
 
-```$ docker run -p 5000:5000 -v $(pwd):/var/www -w "/var/www" node server.js
+```console
+$ docker run -p 5000:5000 -v $(pwd):/var/www -w "/var/www" node server.js
                                                       ^
                                                       |
                                                       Specify working directory in container
