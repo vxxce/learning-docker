@@ -1,6 +1,6 @@
 FROM        node:latest
-LABEL       author="Zach"
-ENV         NODE_ENV=production
+LABEL       author="Zachary Olpin"
+ENV         NODE_ENV=development
 ENV         PORT=5000
 COPY        .  /var/www
 WORKDIR     /var/www
