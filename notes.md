@@ -1,4 +1,7 @@
-What is it good for?
+
+# Notes
+
+## What is it good for?
 
 - Consistency between machines
 - Smoother publishing/production
@@ -8,9 +11,7 @@ What is it good for?
 - Eliminating app conflicts and worry less about versioning. Can make version upgrades and run in own container.
 - Ship the product faster
 
-# Notes
-
- ## Features
+## Features
 
 - Lightweight, open
 - Runs natively on Linux
